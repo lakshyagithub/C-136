@@ -1,0 +1,39 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.heading:hover, #number_of_objects:hover, #status:hover {
+    cursor: not-allowed;
+}
+
+#start, #number_of_objects, #status {
+    font-size: 18px;
+}
+
+.copy_right_footer {
+    position: fixed !important;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(236, 151, 31);
+    line-height: 2;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
